@@ -1,0 +1,145 @@
+textarea {
+  resize: none;
+}
+.redBackground {
+  background: crimson;
+}
+
+.contact-page .descTitle {
+  text-align: left;
+  margin-inline: 0px;
+  margin-top: 2rem;
+}
+.contact-page,
+.cartPageWrapper,
+.openProductPage {
+  min-height: 90vh;
+  max-width: 2000px;
+  margin: auto;
+}
+
+.socialLink {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  transition: 0.2s ease-in;
+  margin: 1rem;
+  margin-left: 0rem;
+}
+.socialLink:hover {
+  opacity: 0.6;
+}
+
+.contactSocialLinks {
+  display: flex;
+}
+.linkItemWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.socialLinkText {
+  color: black;
+  display: none;
+}
+.contactSocialLinks a {
+  color: white;
+}
+
+.sendMessage form {
+  width: 90%;
+  max-width: 400px;
+  padding: 0rem 0rem;
+  padding-left: 0.5rem;
+}
+.sendMessage form .formItem {
+  display: block;
+  width: 95%;
+  margin: auto;
+  margin: 0.7rem 0;
+  outline: 0;
+  padding: 0.5rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: var(--fs-xxs);
+  border: 1.4rem solid #f5f5f5;
+}
+.sendMessage .callToAction {
+  outline: none;
+  border: none;
+  width: 95%;
+}
+
+.contactGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+}
+/* ==========================================================
+==========================================================
+========================================================== */
+.victoriaImgWrapper {
+  height: 33rem;
+  position: relative;
+  /* background: blue; */
+  overflow: hidden;
+}
+.victoriaImg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  /* height: 100%; */
+}
+.about-page,
+.winery {
+  min-height: 70vh;
+}
+.about-page .descText {
+  width: 100%;
+}
+
+.aboutFlexContainer {
+  width: 90%;
+  margin: 2rem auto;
+}
+.aboutFlexContainer .imgSection {
+  margin: 1rem 0rem;
+}
+
+@media (min-width: 37rem) {
+  .aboutFlexContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .aboutFlexContainer .imgSection {
+    width: 40%;
+    min-width: 350px;
+  }
+  .aboutFlexContainer .aboutTextSection {
+    width: 55%;
+  }
+
+  .aboutFlexContainer .descText {
+    width: 90%;
+    max-width: 700px;
+  }
+
+  .socialLinkText {
+    display: block;
+    font-size: var(--fs-xs);
+  }
+  .contactSocialLinks {
+    flex-direction: column;
+    max-width: 100px;
+  }
+  .socialLink {
+    margin: 0.45rem;
+  }
+}

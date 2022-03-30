@@ -1,0 +1,119 @@
+.checkout {
+  width: 90%;
+  margin: 4rem auto;
+  max-width: 600px;
+  border: 1px solid #ececec;
+  padding: 1.5rem 0.7rem;
+}
+
+.checkout .checkName {
+  display: flex;
+  width: 100%;
+  max-width: 600px;
+  padding: 0;
+  justify-content: space-between;
+}
+.checkout .checkName .formItem {
+  width: 49%;
+  display: block;
+  border-width: 1rem;
+}
+
+.togglePaymentMethod {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  max-width: 350px;
+  margin: auto;
+}
+.togglePaymentMethod .svgWrapper {
+  display: flex;
+  justify-content: center;
+}
+.payWith {
+  width: 100px;
+  height: auto;
+  cursor: pointer;
+}
+.nonActivePay {
+  opacity: 0.2;
+  color: gray;
+}
+
+.paypal {
+  margin: 2rem 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.checkout .chNameNoFlex {
+  max-width: 100%;
+  width: 100%;
+}
+.checkout .spanFull,
+.checkout .spanHalf {
+  margin: auto;
+  width: 100%;
+}
+.checkout .spanFull .formItem {
+  width: calc(100% - 2rem);
+}
+
+.checkout .spanHalf {
+  width: calc(100% - 2rem);
+  margin-left: 0;
+  display: grid;
+}
+@media (min-width: 35rem) {
+  .checkout .spanHalf {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+  }
+}
+
+.checkout .spanHalf .formItem {
+  width: 100%;
+}
+.checkout .cardPay {
+  width: 90%;
+}
+
+.payedProduct {
+  border-bottom: 2px solid #dddddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.payedProduct .imgWrapper {
+  width: 50px;
+}
+.payedProduct .imgWrapper img {
+  width: 100%;
+}
+.payPalButton {
+  margin-block: 1.5rem;
+}
+
+.hideFormField {
+  display: none;
+}
+.checkoutmessage {
+  font-size: 0.78rem;
+  text-align: center;
+  margin-bottom: 0;
+  width: 100%;
+  display: none;
+}
+.checkoutError {
+  color: crimson;
+  border: 1px solid crimson;
+  background: rgb(255, 175, 191);
+  display: block;
+}
+.checkoutValid {
+  color: green;
+  border: 1px solid green;
+  background: rgb(141, 187, 141);
+  display: block;
+}

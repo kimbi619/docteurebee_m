@@ -1,0 +1,198 @@
+{
+  "description": "description",
+  "go_to_cart": "go to cart",
+  "product_added": "Product added",
+  "titleBar": {
+    "products": "products",
+    "winery": "winery",
+    "contact": "contact us",
+    "about": "about",
+    "cart": "cart",
+    "checkout": "checkout",
+    "honey": "honey",
+    "pollen": "pollen",
+    "hydromel": "hydromel",
+    "royal_jelly":"royal jelly",
+    "propolis": "propolis",
+    "immune_booster":"immune booster"
+  },
+  "navigation": {
+    "home": "home",
+    "products": "products",
+    "winery": "winery",
+    "contact": "contact",
+    "about": "about",
+    "cart": "cart"
+  },
+  "homepage": {
+    "heroSection": {
+      "heroText": "We are backyard beekeepers (hobbists) with a successful honey production and bee-colonies development",
+      "callToAction": "checkout our products"
+    },
+
+    "site_description":{
+      "title": "description",
+      "text": "We do all different kind of honey (spring, summer, fall, artisanal and churned). Also, our bees produce pollen, propolis and royal jelly. We develop nuclei in early spring to provide other bee-keepers. Also, we are in urge to develop a new product ''Energyn'' that boost an immune system and fight many diseases including Covid.",
+      "connect": "connect with us to learn more"
+    },
+
+    "featuredProduct": {
+      "title": "featured products",
+      "see_product_list": "see product list",
+      "name": {
+        "honey": "honey",
+        "pollen": "pollen",
+        "royal_jelly": "royal jelly",
+        "propolis": "propolis",
+        "immune_booster": "immune booster",
+        "hydromel": "hydromel"
+      }
+    },
+
+
+
+    "video": {
+      "title": "about me",
+      "text": "Our bee-keeping farm exists since 2019 and has 18 hives. We are backyard beekeepers (hobbists) with a successful honey production and bee-colonies development. We do all different kind of honey"
+    }
+
+  },
+
+  "aboutpage": {
+    "title": "about me",
+    "text": "Native of North of Russia, dentist, Victoria Kuzina established in Québec in 1999. BeinNative of North of Russia, dentist, Victoria Kuzina established in Québec in 1999. Being a dentist, Victoria continued her studies and became a certified dentist in Québec in 2010. Being passionate about beekeeping since her childhood, Victoria started beekeeping with the only 2 beehives in 2019. Now, we raised our little farm up to 18 hives. Beekeeping studies, constant education and bee-friendly approach are VERY MUCH APPRECIATED BY OUR CLIENTS.",
+    "text_two": "skeep a reasonable number of healthy hives, have a bee-friendly approach, develop new products as ''Energyn'' (Immune Booster) and be accessible to our clients are the main goals of having quality beekeeping.",
+    "text_three": "Our bee-keeping farm exists since 2019 and has 18 hives. We are backyard beekeepers (hobbists) with a successful honey production and bee-colonies development. We do all different kind of honey"
+  },
+
+
+  "contactpage": {
+    "grid_one": {
+      "title": "contact with us",
+      "cell": "cell",
+      "locate_us": "Address"
+    },
+    "grid_two":{
+      "title": "contact us directly",
+      "enter_email": "enter email",
+      "message": "write your message",
+      "send": "send"
+    },
+    "grid_three": {
+      "title": "our social network"
+    }
+  },
+
+
+  "cart": {
+    "cart_empty": "cart is empty",
+    "total": "Total",
+    "checkout": "checkout",
+    "remove": "remove",
+    "save": "save"
+  },
+
+  "winery": {
+    "not_found": "This page is not yet available"
+  },
+
+  "honey": {
+    "main":{
+      "title": "description",
+      "text": "By definition, honey only comes from honey bees. Honey is basically a sugar solution of two simple sugars, glucose (dextrose) and fructose (levulose). Honey is produced from nectar, a sugary plant secretion high in moisture content, collected and converted by bees into honey. Contrary to what many people believe, honey os not a mixture of nectar and pollen. Both a physical and a chemical change occur in conversion of nectar to honey.",
+      "call_to_action": "checkout our variety"
+    },
+    "variety":{
+      "title": "featured honey",
+      "spring":{
+        "title": "spring honey",
+        "text": "it is the first harvest of the season in may. very pale tiny slightly-yellow coloured honey, verydelicate and tender. available format(s) : 500 g (7 $) and 1 kg (13 $)"
+      },
+      "summer": {
+        "title": "summer honey",
+        "text": "it is the first harvest of the season in may. very pale tiny slightly-yellow coloured honey, verydelicate and tender. available format(s) : 500 g (7 $) and 1 kg (13 $)"
+      },
+      "churned": {
+        "title": "churned honey",
+        "text": "it is the first harvest of the season in may. very pale tiny slightly-yellow coloured honey, verydelicate and tender. available format(s) : 500 g (7 $) and 1 kg (13 $)"
+      },
+      "fall":{
+        "title": "fall honey",
+        "text": "liquid fall honey : last honey of the season, fall honey, rich in minerals and more dense and intensive flavor.available format(s) : 500 g (7 $) and 1 kg (13 $)"
+      },
+      "comb":{
+        "title": "honey comb",
+        "text": "available format(s) : 500 g (7 $) and 1 kg (13 $)"
+      }
+    },
+    "place_order": "place order"
+  },
+
+
+
+  "other_products": {
+    "add_to_cart": "add to cart",
+    "buy": "buy",
+    "pollen": {
+      "title": "pollen",
+      "text": "IT Is a source of protein for the bee diet since nectar offers little nourishment other than carbohydrates. It is consumed by humans as a food and dietary supplement (a protein source). Based on varying amounts of research, pollen has been advocated as a treatment for sterility, for prostate gland disorders, cancer and in allergy relief. Athletes have advocated pollen use, particularly for stamina, weight gain and body conditioning."
+    },
+    "royal_jelly": {
+      "title": "royal-jelly",
+      "text": "It is the glandular brood food adult worker bee secrete from head glands. Royal jelly is a pasty, creamy-white substance with a slightly pungent odor and a somewhat bitter taste. It is rich in vitamins and contains substantial amounts of sugars, proteins and certain organic acids."
+    },
+    "propolis":{
+      "title": "propolis",
+      "text": "Propolis: is a sticky, resinous gum gathered from pine trees, flower buds and other sources for use as a sealant in the hive. Propolis has antibacterial, antifungal and antimicrobial properties and is key to keeping the bee nest a healthy place to live."
+    },
+    "immune_booster":{
+      "title":"immune-booster",
+      "text": "Propolis: is a sticky, resinous gum gathered from pine trees, flower buds and other sources for use as a sealant in the hive. Propolis has antibacterial, antifungal and antimicrobial properties and is key to keeping the bee nest a healthy place to live."
+    },
+    "hydromel": {
+      "title": "hydromel",
+      "text": "It is a mixture of Honey and water that becomes mead when fermented. In English, Hydromel is generally assumed to be 10% alcohol or below, but Hydromels made and sold in Quebec can be as high as 15% alcohol. Fermented Hydromel is called “hydromel vineux” in French.A place where Hydromel is made is called a “hydromellerie” in French."
+    }
+  },
+
+
+  "footer": {
+    "about": {
+      "title": "about",
+      "who_we_are": "who we are",
+      "what_we_do": "what we do",
+      "Tell": "Tell",
+      "email_us": "Reach out via email"
+    },
+    "buy":{
+      "title": "buy",
+      "store": "store",
+      "privacy": "privacy policy",
+      "stories": "stories",
+      "help": "get help"
+    },
+    "others":{
+      "title": "others",
+      "faq": "FAQs",
+      "report_errors": "report Error",
+      "language": "language"
+    }
+  },
+
+  "checkout": {
+    "title": "checkout",
+    "firstName" : "first name",
+    "lastName": "last Name",
+    "return_to_store": "return to store",
+    "name_error": "please enter valid name",
+    "name_valid": "valid user name",
+    "master": {
+      "button": "credit/debit",
+      "card_name": "name on card",
+      "card_number": "card number",
+      "security_code": "security code",
+      "zip_code": "zip/postal code"
+    },
+    "paypal": "proceed with PayPal"
+  }
+}

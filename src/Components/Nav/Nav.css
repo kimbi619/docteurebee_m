@@ -1,0 +1,476 @@
+.navList {
+  margin: 0;
+  padding: 0;
+}
+.nav {
+  position: relative;
+}
+.navHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-block: 0rem 0.7rem;
+}
+.headerWrapper {
+  border-bottom: 1px solid #f3f3f3;
+  margin-bottom: 2rem;
+}
+.search {
+  width: 60%;
+  max-width: 22.5rem;
+  height: 35px;
+  position: relative;
+  background: var(--light-gray);
+  border-radius: 100px;
+}
+
+.searchInput {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(100% - 2rem);
+  height: 100%;
+  padding-inline: 1rem;
+  background: transparent;
+  font-size: 0.8rem;
+}
+
+.searchIcon {
+  outline: none;
+  border: none;
+  background: transparent;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  height: 100%;
+  font-size: 1rem;
+  padding: 0.6rem 0.8rem;
+  color: var(--secondaryColor);
+  opacity: 0.4;
+}
+
+.burgerMenu {
+  z-index: 100;
+}
+.menu {
+  pointer-events: none;
+  font-size: 1.5rem;
+}
+/* ====================================================================================== */
+/* =====================styling search filter content=========================================== */
+.searchFilter {
+  position: absolute;
+  width: 95%;
+  max-width: 38rem;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: white;
+  z-index: 3;
+  border-radius: 6px;
+  padding: 1rem;
+  padding-top: 0;
+  box-shadow: 2px 3px 6px #00264954;
+  display: none;
+}
+/* .searchFilter::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: var(--primaryColor);
+  z-index: 123123;
+  width: 100%;
+  height: 100%;
+} */
+.logo {
+  /* display: inline; */
+  width: 4rem;
+  height: 3.5rem;
+}
+.logoImg {
+  width: 100%;
+  height: 100%;
+}
+.searchLinks {
+  padding-block: 1rem;
+  border-bottom: 1px solid #a6d1f8;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+nav {
+  width: 100%;
+  background: var(--primaryColor);
+  position: absolute;
+  height: 100vh;
+  top: 0;
+  z-index: 10;
+  color: white;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  padding-top: 4rem;
+  transform: scale(0, 1);
+  transition: all 0.2s ease-in-out;
+  transform-origin: top left;
+}
+.logoCaption {
+  margin-block: 4rem;
+  font-size: var(--fs-md);
+}
+nav .caption {
+  margin: 1rem;
+}
+.navLink {
+  margin-top: 1.2rem;
+}
+.navList a {
+  color: white;
+}
+
+.logout {
+  background: var(--secondaryColor);
+  padding: 2rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.showNav {
+  transform: scale(1, 1);
+  /* display: block; */
+}
+
+/* ===================================================== */
+
+.searchBackground {
+  position: fixed;
+  top: 3.9rem;
+  left: 0;
+  width: 100%;
+  height: calc(100% - 3.9rem);
+  background: #20406796;
+  z-index: 2;
+  display: none;
+}
+
+/* ====================================================================================== */
+/* ========================styling for CAROUSEL ITEMS==================================== */
+/* ====================================================================================== */
+
+.caroselGrid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 0.4rem;
+  margin-block: 1rem;
+  overflow: hidden;
+}
+.carouselWrapper .carosel {
+  width: 100%;
+  height: 100%;
+  background: #002649a2;
+  color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  font-size: var(--fs-xs);
+  text-transform: capitalize;
+  font-family: 'Quicksand', sans-serif;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 2rem;
+}
+.carosel * {
+  pointer-events: none;
+}
+.carosel p {
+  color: white;
+  z-index: 2;
+  position: sticky;
+  top: 70%;
+  left: 10%;
+}
+.categoryImage {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.rec.rec-arrow {
+  display: none;
+}
+
+.carouselWrapper {
+  margin-top: 1.25rem;
+  max-width: 42.75rem;
+}
+.viewAll {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.viewAll p {
+  position: static;
+}
+.new {
+  width: 400px;
+  height: 300px;
+}
+
+/* ====================================================================================== */
+/* ====================================================================================== */
+/* ====================================================================================== */
+/* ====================================================================================== */
+/* ====================================================================================== */
+.desktopSearch {
+  display: none;
+}
+@media (min-width: 37.5rem) {
+  nav {
+    height: auto;
+    position: static;
+    padding: 1rem;
+    transform: scale(1, 1);
+  }
+  .logoCaption {
+    display: none;
+  }
+  .burgerMenu {
+    display: none;
+  }
+  .navList {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo {
+    color: var(--primaryColor);
+  }
+  .navLink {
+    margin-top: 0;
+    margin-inline: 1.7rem;
+  }
+  .logout {
+    display: none;
+  }
+}
+@media (min-width: 50rem) {
+  .search {
+    display: none;
+  }
+  .desktopSearch {
+    display: block;
+    margin-left: 1rem;
+    max-width: 15rem;
+  }
+  .nav {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    width: 95%;
+    margin: auto;
+  }
+  .navList a {
+    color: var(--primaryColor);
+  }
+  nav {
+    width: 100%;
+    background: transparent;
+    padding: 1rem 0rem;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navHeader {
+    width: 100%;
+  }
+  .headerWrapper .container {
+    width: auto;
+  }
+  .push {
+    margin-right: auto;
+  }
+  .shiftRight {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    /* justify-content: flex-end; */
+    /* width: 40%; */
+  }
+  nav {
+    margin-right: auto;
+  }
+
+  .navLink a {
+    color: var(--primaryColor);
+  }
+  .burgerMenu {
+    display: none;
+  }
+}
+/* =================================================================== */
+/* =================================================================== */
+/* =================================================================== */
+.cartLink {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: nowrap;
+}
+.cartLinkIcon {
+  position: relative;
+  font-size: 1.2rem;
+  margin-left: 0.2rem;
+  color: rgb(4, 70, 156);
+}
+.cartLinkItemCount {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 17px;
+  height: 17px;
+  background-color: rgb(255, 152, 172);
+  color: white;
+  border-radius: 50%;
+  transform: translate(50%, -50%);
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dropDownWrapper {
+  position: relative;
+}
+.cont {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.languageDesktop {
+  display: none;
+}
+.dropDown {
+  padding: 0.5rem;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  cursor: pointer;
+  pointer-events: none;
+  margin-top: 2rem;
+}
+.dropDownIndicator {
+  border-left: 1px solid gray;
+  margin-left: 0.5rem;
+  padding-left: 0.5rem;
+  color: black;
+  pointer-events: none;
+}
+.dropDownList {
+  box-shadow: none;
+  padding: 0rem 0rem 0.3rem 0rem;
+  position: static;
+  /* top: 80%;
+  right: 0; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: transparent;
+  z-index: 1;
+  display: none;
+  min-width: 7rem;
+}
+.dropDownItem {
+  padding: 0.5rem;
+  font-size: var(--fs-xs);
+  border-bottom: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+  color: white;
+}
+.dropDownItem * {
+  pointer-events: none;
+}
+.dropDownItem:hover {
+  background: #ebebeb;
+}
+
+.toggleDropDown {
+  display: block;
+}
+.blacktext {
+  margin-left: 0.5rem;
+  font-size: 0.9rem;
+}
+.langRemover {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  position: absolute;
+  display: none;
+}
+
+.displayShowLang {
+  display: block;
+}
+
+/* .languageDesktop {
+  display: none;
+} */
+
+@media (min-width: 37rem) {
+  nav .dropDown {
+    background-color: #f3f3f3;
+    justify-content: center;
+    background: transparent;
+    position: relative;
+    margin-top: 0rem;
+  }
+
+  .dropDownItem {
+    color: black;
+  }
+  .dropDownList {
+    box-shadow: 2px 3px 6px 2px rgba(0, 0, 0, 0.178);
+    padding: 0rem 0rem 0.3rem 0rem;
+    position: absolute;
+    top: 80%;
+    right: 0;
+    width: 10%;
+    background: white;
+    z-index: 1;
+    /* display: none; */
+    min-width: 7rem;
+  }
+  .dropDownItem {
+    padding: 0.5rem;
+    font-size: var(--fs-xs);
+    border-bottom: 1px solid rgb(218, 218, 218);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+    color: black;
+  }
+  .cartLink {
+    color: black;
+  }
+  .languageMobile {
+    display: none;
+  }
+}
+.hideLang {
+  display: none;
+}

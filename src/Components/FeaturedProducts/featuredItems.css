@@ -1,0 +1,113 @@
+.featuredProductTopGrid {
+  display: grid;
+  grid-gap: 2rem;
+  max-width: 1520px;
+  margin-bottom: 3rem;
+}
+
+.descCap {
+  text-transform: uppercase;
+  margin-inline: 0;
+}
+.featuredProductTopGrid .descTitle {
+  margin: 0;
+  margin-bottom: 1rem;
+}
+.featuredProductTopGrid .imgSection {
+  padding: 0rem;
+  border: 1.3rem solid #c1c8ce15;
+
+  /* max-width: 500px; */
+}
+.featuredProductTopGrid .descText {
+  margin: 0;
+  /* margin-top: 2rem; */
+}
+.titleLeft {
+  text-align: left;
+}
+.imgSection {
+  width: 100%;
+}
+.imgSection .gridImage {
+  width: 100%;
+  height: 100%;
+}
+
+/* =======================================================================
+=======================================================================
+======================================================================= */
+.featuredHoneyItem {
+  background: #f5f5f5;
+  padding: 1rem;
+  border-radius: 6px;
+}
+.featuredHoneyItem .imgWrapper {
+  z-index: 2;
+}
+.honey .featuredProducts {
+  width: 90%;
+  max-width: 1500px;
+}
+.honey .gridWrapper {
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
+.honey .gridItem {
+  border-right: 5px solid #f5f5f5;
+  padding-right: 1.4rem;
+  margin-bottom: 2rem;
+}
+.honey .gridItem:hover {
+  opacity: 1;
+}
+.honey .desc {
+  text-transform: lowercase;
+  margin-block: 2rem;
+}
+.honey .descText {
+  line-height: 1.4rem;
+  width: 100%;
+  text-align: left;
+}
+
+.name-title {
+  text-transform: capitalize;
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0rem 0rem;
+}
+.honey .honeyItemLink {
+  padding: 0rem;
+  font-size: var(--fs-xxs);
+}
+.name-title > div:nth-child(2) {
+  text-align: right;
+}
+@media (min-width: 40rem) {
+  .featuredProductTopGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .honey .featuredProductTopGrid .descText {
+    width: 100%;
+  }
+
+  .imgWrapper {
+    padding: 0;
+  }
+  .featuredProductTopGrid .carouselWrapper {
+    height: 25rem;
+    overflow: visible;
+  }
+  .rec-carousel {
+    height: 100%;
+  }
+  .featuredProductTopGrid .gridImage {
+    width: 100%;
+    height: 120%;
+  }
+}
+
+.addToCart {
+  background: rgb(43, 94, 31);
+}

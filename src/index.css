@@ -1,13 +1,181 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.heroSection {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  background: linear-gradient(to right, #0a305b50, #0a305b50),
+    url('./img/miel.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+h1 {
+  width: 80%;
+  max-width: 700px;
+  font-size: var(--fs-av);
+}
+.hyperLink {
+  color: #086bfe;
+  text-align: center;
+  text-decoration: underline;
+}
+.seeAll {
+  text-transform: lowercase;
+  text-align: right;
+  margin-block: 0.7rem;
+}
+.callToAction {
+  color: white;
+  font-size: var(--fs-xs);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  background: #1d4c80;
+  width: 15rem;
+  margin-top: 2rem;
+  text-transform: capitalize;
+  height: 2.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.siteDesc {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  margin-block: 2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.descTitle {
+  font-weight: bold;
+  font-size: var(--fs-md);
+  margin: 1rem;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: 'Noto Serif Display', serif;
+}
+.descText {
+  font-size: var(--fs-xs);
+  width: 85%;
+  line-height: 1.5rem;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.desc {
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+@media (min-width: 37rem) {
+  .descText {
+    max-width: 1500px;
+    line-height: 30px;
+    width: 65%;
+  }
+  .featuredProducts {
+    width: 60%;
+  }
+  /* .gridWrapper {
+    grid-template-columns: repeat(3, 1fr);
+  } */
+  .gridItem .imgWrapper {
+    height: 13rem;
+  }
+  .featuredProducts .gridWrapper {
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  }
+}
+
+/* ==========================================================
+==========================================================
+========================================================== */
+.featuredProducts {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  text-transform: uppercase;
+}
+.gridWrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+  grid-gap: 1rem;
+}
+.gridItem {
+  width: 100%;
+  text-align: center;
+  transition: all 0.3s ease-in;
+  border: 1px solid #6eacdf;
+}
+.honey .gridItem {
+  border: none;
+}
+.gridItem:hover {
+  opacity: 0.4;
+}
+.gridItem .imgWrapper {
+  height: 13rem;
+  width: 100%;
+  position: relative;
+  z-index: -2;
+  overflow: hidden;
+}
+.gridItem .gridImage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  z-index: -1;
+  transform: translate(-50%, -50%);
+}
+@media (max-width: 35rem) {
+  .gridItem .imgWrapper {
+    height: 8rem;
+  }
+  .gridItem {
+    border: none;
+  }
+}
+/* =====================================================================
+=====================================================================
+===================================================================== */
+.characteristics {
+  margin: 2rem 0rem;
+  max-width: 1000px;
+}
+
+/* ================================================================== */
+.youtube {
+  width: 100%;
+  height: 250px;
+}
+
+.featuredProductTopDesc .descText {
+  width: 100%;
+}
+
+.featuredProductTopDesc {
+  width: 100%;
+  max-width: 500px;
+}
+.controlLinkWrapper {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.controlLinks {
+  display: block;
+  margin-right: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.legendImageWrapper {
+  width: 100%;
+  height: 70vh;
+}
+.legendImage {
+  width: 100%;
 }
