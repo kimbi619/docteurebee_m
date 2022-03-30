@@ -1,38 +1,108 @@
+:root {
+  --primaryColor: #1e2834;
+  --secondaryColor: #204067;
+  --light-gray: #f5f5f5;
+  --mainRed: #fc5c65;
+  --mainGreen: #20bf6b;
+  --fs-xs: 0.9rem;
+  --fs-xxs: 0.9rem;
+  --fs-md: 1.4525rem;
+  --fs-av: 1.7rem;
+  --fs-lg: 2rem;
+  --fs-xl: 2.6rem;
+  --fs-sm: 1.2rem;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+p {
+  color: var(--primaryColor);
+}
+input {
+  outline: none;
+  border: none;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: var(--primaryColor);
+}
+.mainAppWrapper {
+  min-height: 60vh;
+}
 .App {
-  text-align: center;
+  position: relative;
+}
+.logo {
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-size: var(--fs-xs);
+}
+.container {
+  width: 95%;
+  margin: auto;
+  /* background-color: crimson; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input[type='checkbox'] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  background: #d5d5d5;
+  cursor: pointer;
+  display: block;
+  margin-top: 1%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+input[type='checkbox']:after {
+  font-family: 'font awesome 5 free';
+  font-weight: 600;
+  content: '\f00c';
+  font-size: var(--fs-xs);
   color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+input[type='checkbox']:checked {
+  background: #0672ff;
+}
+input[type='checkbox']:checked::after {
+  display: flex;
 }
 
-.App-link {
-  color: #61dafb;
+.success {
+  color: var(--mainGreen);
+}
+.preloader {
+  background: linear-gradient(to right, #95d5ff50, #95d5ff50, #95d5ff50),
+    url('./loader.gif') no-repeat center;
+  background-size: 50%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 2000;
+  top: 0;
+  left: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.skeleton {
+  animation: skeleton-animation 1s infinite alternate;
+}
+@keyframes skeleton-animation {
+  0% {
+    background: hsl(199, 35%, 81%);
   }
-  to {
-    transform: rotate(360deg);
+  100% {
+    background: hsl(199, 14%, 95%);
   }
 }

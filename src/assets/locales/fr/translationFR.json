@@ -1,0 +1,203 @@
+{  
+  "description": "description",
+  "go_to_cart": "aller au panier",
+  "product_added": "Produit ajouté",
+  "titleBar": {
+    "products": "produits",
+    "winery": "vignoble",
+    "contact": "Nous contacter",
+    "about": "sur",
+    "cart": "carte",
+    "checkout": "vérifier",
+    "honey": "miel",
+    "pollen": "pollen",
+    "hydromel": "hydromellerie",
+    "royal_jelly":"gelée royale",
+    "propolis": "propolis",
+    "immune_booster":"rappel immunitaire"
+  },
+    "navigation": {
+      "home": "d'accueil",
+      "products": "produits",
+      "winery": "vignoble",
+      "contact": "contact",
+      "about": "propos",
+      "cart": "achats"
+    },
+
+    "homepage": {
+        "heroSection": {
+            "heroText": "Nous sommes des apiculteurs de basse-cour (amateurs) avec une production de miel réussie et le développement de colonies d'abeilles",
+            "callToAction": "consultez nos produits"
+        },
+
+        "site_description":{
+            "title": "description",
+            "text": "Nous faisons tous différents types de miel (printemps, été, automne, artisanal et baratté)nos abeilles produisent du pollen, de la propolis et de la gelée royale. Nous développons des noyaux au début du printemps pour fournir aux autres apiculteurs. nous sommes pressés de développer un nouveau produit ''Energyn'' qui renforce un système immunitaire et combat de nombreuses maladies dont le Covid.",
+            "connect": "contactez-nous pour en savoir plus"
+        },
+  
+        "featuredProduct": {
+            "title": "Produits populaires",
+            "see_product_list": "voir la liste des produits",
+            "name": {
+            "honey": "miel",
+            "pollen": "pollen",
+            "royal_jelly": "gelée royale",
+            "propolis": "propolis",
+            "immune_booster": "rappel immunitaire",
+            "hydromel": "hydromellerie"
+            }  
+        },
+    
+        "video": {
+            "title": "propos de moi",
+            "text": "Notre ferme apicole existe depuis 2019 et compte 18 ruches. Nous sommes des apiculteurs de basse-cour (hobbists) avec une production de miel réussie et le développement de colonies d'abeilles. Nous faisons tous différents types de miel"
+        }
+    },
+
+    "aboutpage": {
+        "title": "propos de moi",
+        "text": "Originaire du Nord de la Russie, dentiste, Victoria Kuzina s'est établie au Québec en 1999. Dentiste, Victoria a poursuivi ses études et est devenue dentiste certifiée au Québec en 2010. Passionnée par l'apiculture depuis son enfance, Victoria a commencé l'apiculture avec les 2 seules ruches en 2019. Maintenant, nous avons élevé notre petite ferme jusqu'à 18 ruches. Les études apicoles, l'éducation constante et l'approche respectueuse des abeilles sont TRÈS APPRÉCIÉES PAR NOS CLIENTS.",
+        "text_two": "Conserver un nombre raisonnable de ruches saines, avoir une approche respectueuse des abeilles, développer de nouveaux produits comme ''Energyn'' (Booster Immunitaire) et être accessible à nos clients sont les principaux objectifs d'une apiculture de qualité.",
+        "text_three": "Notre ferme apicole existe depuis 2019 et compte 18 ruches. Nous sommes des apiculteurs de basse-cour (hobbists) avec une production de miel réussie et le développement de colonies d'abeilles. Nous faisons tous différents types de miel"
+    },
+
+
+    "contactpage": {
+        "grid_one": {
+          "title": "contacter avec nous",
+          "cell": "Tell",
+          "locate_us": "Addresse"
+        },
+        "grid_two":{
+            "title": "contactez-nous directement",
+          "enter_email": "entrer l'e-mail",
+          "message": "écrivez votre message",
+          "send": "envoyer"
+        },
+        "grid_three": {
+          "title": "notre réseau social"
+        }
+      },
+
+      "cart": {
+        "cart_empty": "Le panier est vide",
+        "total": "Total",
+        "checkout": "vérifier",
+        "remove": "supprimer",
+        "save": "sauver"
+      },
+
+      "winery": {
+        "not_found": "Cette page n'est pas encore disponible"
+      },
+
+      "honey": {
+        "main":{
+          "title": "description",
+          "text": "Par définition, le miel ne provient que des abeilles mellifères. Le miel est essentiellement une solution sucrée de deux sucres simples, le glucose (dextrose) et le fructose (lévulose). Le miel est produit à partir du nectar, une sécrétion végétale sucrée à forte teneur en humidité, récoltée et transformée par les abeilles en miel. Contrairement à ce que beaucoup de gens croient, le miel n'est pas un mélange de nectar et de pollen. Un changement physique et chimique se produit lors de la conversion du nectar en miel.",
+          "call_to_action": "Découvrez notre variété"
+        },
+        "variety":{
+          "title": "miel en vedette",
+          "spring":{
+            "title": "miel de printemps",
+            "text": "c'est la première récolte de la saison en mai. miel très pâle de couleur légèrement jaune, très délicat et tendre. format(s) disponible(s) : 500 g (7 $) et 1 kg (13 $)"
+          },
+          "summer": {
+            "title": "miel d'été",
+            "text": "c'est la première récolte de la saison en mai. miel très pâle de couleur légèrement jaune, très délicat et tendre. format(s) disponible(s) : 500 g (7 $) et 1 kg (13 $)"
+          },
+          "churned": {
+            "title": "miel baratté",
+            "text": "c'est la première récolte de la saison en mai. miel très pâle de couleur légèrement jaune, très délicat et tendre. format(s) disponible(s) : 500 g (7 $) et 1 kg (13 $)"
+          },
+          "fall":{
+            "title": "miel d'automne",
+            "text": "miel d'automne liquide : dernier miel de la saison, miel d'automne, riche en minéraux et en saveur plus dense et intense. format(s) disponible(s) : 500 g (7 $) et 1 kg (13 $)"
+          }
+        },
+        "comb":{
+          "title": "peigne à miel",
+          "text": "format(s) disponible(s) : 500 g (7 $) et 1 kg (13 $)"
+        },
+        "place_order": "Passer la commande"
+      },
+
+
+  
+      "other_products": {
+        "add_to_cart": "Ajouter au panier",
+        "buy": "acheter",
+        "pollen": {
+          "title": "pollen",
+          "text": "C'est une source de protéines pour l'alimentation des abeilles car le nectar offre peu de nourriture autre que les glucides. Il est consommé par l'homme comme aliment et complément alimentaire (source de protéines). Sur la base de diverses recherches, le pollen a été préconisé comme traitement de la stérilité, des troubles de la prostate, du cancer et du soulagement des allergies. Les athlètes ont préconisé l'utilisation du pollen, en particulier pour l'endurance, la prise de poids et le conditionnement physique."
+        },
+        "royal_jelly":{
+            "title": "gelée royale",
+            "text": "C'est la nourriture glandulaire du couvain que les abeilles ouvrières adultes sécrètent par les glandes de la tête. La gelée royale est une substance pâteuse de couleur blanc crème avec une odeur légèrement piquante et un goût un peu amer. Il est riche en vitamines et contient des quantités substantielles de sucres, de protéines et de certains acides organiques."
+        },
+        "propolis":{
+            "title": "propolis",
+            "text": "Propolis : est une gomme collante et résineuse provenant de pins, de bourgeons floraux et d'autres sources pour être utilisée comme scellant dans la ruche. La propolis a des propriétés antibactériennes, antifongiques et antimicrobiennes et est essentielle pour que le nid d'abeilles reste un endroit sain où vivre."
+        },
+        "immune_booster":{
+            "title":"rappel immunitaire",
+            "text": "Energyn = Immune Booster, un mélange de 4 ingrédients : miel, pollen, propolis et gelée royale. Le cours de traitement (prévention) de 30 jours a considérablement improve le système immunitaire et aide à lutter contre de nombreuses maladies virales et bactériennes. Généralement pris en prévention à l'automne et au printemps."
+        },
+        "hydromel": {
+            "title": "hydromellerie",
+            "text": "C'est un mélange de miel et d'eau qui devient de l'hydromel lorsqu'il est fermenté. En anglais, Hydromel est généralement supposé contenir 10 % d'alcool ou moins, mais les Hydromels fabriqués et vendus au Québec peuvent contenir jusqu'à 15 % d'alcool. L'hydromel fermenté est appelé 'hydromel vineux' en français. Un endroit où l'hydromel est fabriqué s'appelle une 'hydromellerie' en français."
+        }
+
+      },
+    
+
+      "footer": {
+        "about": {
+          "title": "sur",
+          "who_we_are": "qui nous sommes",
+          "what_we_do": "ce que nous faisons",
+          "Tell": "Tell",
+          "email_us": "Contactez-nous par e-mail"
+        },
+        "buy":{
+          "title": "acheter",
+          "store": "magasin",
+          "privacy": "politique confidentialité",
+          "stories": "histoires",
+          "help": "Rétroaction"
+        },
+        "others":{
+          "title": "autres",
+          "faq": "FAQs",
+          "report_errors": "signaler erreur",
+          "language": "Langue"
+        }
+      },
+
+      
+
+
+      "checkout": {
+        "title": "Payer",
+        "firstName" : "Prénom",
+        "lastName": "nom",
+        "return_to_store": "retour au magasin",
+        "name_error": "veuillez entrer un nom valide",
+        "name_valid": "Nom d'utilisateur valide",
+        "master": {
+          "button": "crédit/débit",
+          "card_name": "Nom sur la carte",
+          "card_number": "numéro de carte",
+          "security_code": "code de sécurité",
+          "zip_code": "Zip / code postal"
+        },
+        "paypal": "continuer avec paypal"
+      }
+
+
+
+  }
+  

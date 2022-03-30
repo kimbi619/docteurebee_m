@@ -1,0 +1,127 @@
+.productFlexWrapper {
+  /* display: flex; */
+  justify-content: space-between;
+}
+.openedProductPage {
+  min-height: 70vh;
+}
+
+.productPageImgWrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.buyBtn {
+  display: block;
+  outline: none;
+  margin: 1rem auto;
+  border: none;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  font-size: var(--fs-sm);
+  width: 100%;
+  padding: 0.5rem 0;
+  border-radius: 6px;
+  max-width: 30rem;
+}
+.mainAddToCartButton {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.addToCart {
+  background: var(--mainRed);
+}
+.productPlaceOrder {
+  background: var(--mainGreen);
+}
+
+.desktopTitle {
+  display: none;
+}
+
+@media (min-width: 50rem) {
+  .productFlexWrapper {
+    display: flex;
+  }
+  .desktopTitle {
+    display: block;
+    text-align: center;
+    margin: 1rem;
+  }
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.overlay .shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0.7;
+}
+.overlay .overlayContainer {
+  width: 90%;
+  height: auto;
+  padding: 1rem;
+  background-color: white;
+  max-width: 600px;
+  position: absolute;
+}
+.overlay .heading {
+  display: flex;
+  align-items: flex-end;
+  font-size: 0.8rem;
+}
+.overlay .headingOne {
+  color: crimson;
+  margin: 0.2rem;
+}
+.overlay .headingOne:nth-child(1) {
+  text-decoration: underline;
+  margin-right: 0.4rem;
+  text-transform: capitalize;
+}
+.overlay .size {
+  border-bottom: 2px solid #eeeeee;
+  padding: 0.7rem 0rem 0.4rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 0.2rem 0rem;
+}
+.overlay .size .name {
+  font-size: 0.9rem;
+}
+.overlay p {
+  margin: 2rem auto;
+}
+.overlayWrapper {
+  display: none;
+}
+.whow {
+  display: block;
+}
+
+.productPageImgWrapper .descImage {
+  width: 100%;
+}
+.productPageImgWrapper {
+  height: auto;
+  margin: 0;
+}
+@media (min-width: 35rem) {
+  .productPageImgWrapper .descImage {
+    margin-top: -50px;
+  }
+}
